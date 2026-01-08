@@ -4,16 +4,16 @@
 html, body {
   margin: 0;
   padding: 0;
-  background-color: #000;
-  color: #fff;
+  background-color: Black;
+  color: Red;
   font-family: Arial, sans-serif;
   text-align: center;
 }
 
 /* Header (blue banner) */
 header {
-  background-color: #004aad;
-  color: #fff;
+  background-color: Red;
+  color: Black;
   text-align: center;
   padding: 0.3em 0;      /* thin height */
   margin: 0;
@@ -29,8 +29,8 @@ header h1 {
 
 /* PDF Upload box (right below header) */
 #pdf-upload {
-  background-color: #111;
-  border: 1px solid #333;
+  background-color: Grey;
+  border: 1px solid Red;
   border-radius: 6px;
   padding: 2px 0 8px 0;
   margin: 5px auto 8px auto;   /* tiny space under header */
@@ -64,9 +64,9 @@ header h1 {
 }
 
 #pdf-upload input[type="file"] {
-  background-color: #222;
-  color: #fff;
-  border: 1px solid #555;
+  background-color:Grey;
+  color: Red;
+  border: 1px solid Red;
   border-radius: 5px;
   padding: 6px;
   margin-top: 4px;
