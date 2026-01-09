@@ -42,7 +42,7 @@
 
     <div class="audio-player">
         <audio id="audio" controls>
-            <source src="joe.mp3" type="audio/mp3"></audio></source>
+            <source src="joe.mp3" type="audio/mp3"></audio>
             Your browser does not support the audio element.
         </audio>
         <div class="controls">
@@ -53,7 +53,7 @@
   
   <script type="module">
   import { readPDFAndDecode } from "./js/pdfReader.js";
-  import { parsePP } from "./js/parsePP.js";
+
 
   // When user selects a PDF file, show page count immediately
 document.getElementById("pdfFile").addEventListener("change", async () => {
@@ -68,16 +68,13 @@ document.getElementById("pdfFile").addEventListener("change", async () => {
   document.getElementById("runCreate").addEventListener("click", async () => {
   const file = document.getElementById("pdfFile").files[0];
   if (!file) return alert("Select a PDF first!");
+  }
+  
 
-  const decoded = await readPDFAndDecode(file);
 
-  // PHASE 1 parse
-  const structure = parsePP(decoded);
 
-  // Show structure in dev panel
-  const out = document.getElementById("devStructureOutput");
-  if (out) out.textContent = JSON.stringify(structure, null, 2);
-});
+
+
 </script>
   
 
