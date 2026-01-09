@@ -1,10 +1,10 @@
 //pdfReader updated
 
-// js/pdfReader.js
-// iPad-friendly FileReader-based PDF loader for pdf.js
+ js/pdfReader.js
+ iPad-friendly FileReader-based PDF loader for pdf.js
 
 (function () {
- // find pdfjs global
+  find pdfjs global
  
   const pdfjsLib = window['pdfjs-dist/build/pdf'] || window.pdfjsLib || null;
 if (!pdfjsLib) {
@@ -16,11 +16,11 @@ if (!pdfjsLib) {
    }
 
  // Shared state exported to window so analyzer can access if needed
-//  window._pdfReader = {
-//    pdfText: "",
- //   pdfDoc: null,
-//    lastError: null
-//  };
+  window._pdfReader = {
+   pdfText: "",
+   pdfDoc: null,
+   lastError: null
+  };
 
   function updateStatus(msg) {
     const s = document.getElementById("pdfStatus");
