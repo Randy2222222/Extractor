@@ -48,14 +48,14 @@ if (!pdfjsLib) {
         updateStatus(`PDF loaded successfully (${pdf.numPages} pages)`);
     
      // Beggining of Parser code
-if (window.parsePPTable) {
-  window._pdfReader.parsedPP = window.parsePPTable(fullText);
-}
-if (window.parseHorseBlockFull && window._pdfReader.parsedPP) {
-  window._pdfReader.horses = window._pdfReader.parsedPP.map(b => {
-    return { post: b.post, name: b.name, ...window.parseHorseBlockFull(b) };
-  });
-}
+//if (window.parsePPTable) {
+//  window._pdfReader.parsedPP = window.parsePPTable(fullText);
+//}
+//if (window.parseHorseBlockFull && window._pdfReader.parsedPP) {
+//  window._pdfReader.horses = window._pdfReader.parsedPP.map(b => {
+//    return { post: b.post, name: b.name, ...window.parseHorseBlockFull(b) };
+//  });
+//}
 
   // Detect bugs
       window._pdfReader.lastError = null;
@@ -131,11 +131,11 @@ if (window.parseHorseBlockFull && window._pdfReader.parsedPP) {
     return;
   }
   // 🔹 At this point the PDF is loaded AND Parsed
-  const pp = window._pdfReader.parsedPP;
-  if (!pp || !pp.length) {
-    alert("Parsing failed — no PP data found.");
-    return;
-  }
+//  const pp = window._pdfReader.parsedPP;
+//  if (!pp || !pp.length) {
+//    alert("Parsing failed — no PP data found.");
+//    return;
+//  }
 
   // For now, just display the JSON in #output 
  const out = document.getElementById("output");
