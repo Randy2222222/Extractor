@@ -67,10 +67,10 @@ export async function readPDFAndDecode(file) {
 
    let out = "=========== PARSED STRUCTURE ===========\n\n";
 
-//  for (const h of parsed.horses) {
-//    out += `HORSE ${h.post || "?"} — ${h.name || "UNKNOWN"}\n`;
+  for (const h of parsed.horses) {
+    out += `HORSE ${h.post || "?"} — ${h.name || "UNKNOWN"}\n`;
 
-//    h.pp.forEach((pp) => {
+     h.pp.forEach((pp) => {
     
      });
 
