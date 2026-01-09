@@ -33,6 +33,7 @@ header h1 {
   background-image: radial-gradient(#090,
                                 #fff, #2a4f32);
   border: 2px Green;
+  radius: 5px;
   text-align: center;
   border-radius: 6px;
   padding: 0;
