@@ -120,7 +120,7 @@ document.getElementById("pdfFile").addEventListener("change", async () => {
   const file = document.getElementById("pdfFile").files[0];
   if (!file) return alert("Select a PDF first!");
 
-//  const decoded = await readPDFAndDecode(file);
+  const decoded = await readPDFAndDecode(file);
 
   // PHASE 1 parse
  // const structure = parsePP(decoded);
