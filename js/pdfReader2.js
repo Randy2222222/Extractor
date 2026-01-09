@@ -16,11 +16,11 @@ if (!pdfjsLib) {
    }
 
  // Shared state exported to window so analyzer can access if needed
-  window._pdfReader = {
-    pdfText: "",
-    pdfDoc: null,
-    lastError: null
-  };
+//  window._pdfReader = {
+//    pdfText: "",
+ //   pdfDoc: null,
+//    lastError: null
+//  };
 
   function updateStatus(msg) {
     const s = document.getElementById("pdfStatus");
