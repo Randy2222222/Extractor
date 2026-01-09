@@ -1,7 +1,6 @@
 
 // pdfReader.js
 // Clean, simple PDF loader with DEV MODE output
-
 const DEV_MODE = "raw";  // turn off later when finished
 
 function updateStatus(msg) {
@@ -12,7 +11,8 @@ function updateStatus(msg) {
 export async function loadPDF(file) {
   const pdf = await pdfjsLib.getDocument({ url: URL.createObjectURL(file) }).promise;
   let fullText = "";
-
+  
+       // Get page numbers
   for (let i = 1; i <= pdf.numPages; i++) {
     const page = await pdf.getPage(i);
     const content = await page.getTextContent();
@@ -26,7 +26,7 @@ export async function loadPDF(file) {
 export async function readPDFAndDecode(file) {
   const rawText = await loadPDF(file);
 
-  // DEV MODE: show raw text panel
+  // DEV MODE: show raw text!
   if (DEV_MODE === "raw") {
     const rawOut = document.getElementById("devRawOutput");
     if (rawOut) rawOut.textContent = rawText;
