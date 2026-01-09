@@ -78,8 +78,8 @@ header h1 {
 }
 
 #pdfupload input[type="file"] {
-  background-color:Grey;
-  color: Red;
+  background-color: Yellow;
+  color: Black;
   border: 1px solid Green;
   text-align: center;
   border-radius: 5px;
@@ -98,7 +98,7 @@ header h1 {
 /* Output area */
 #program-output {
   padding: 20px;
-  height: 250px;
+  height: 350px;
   
 }
 
