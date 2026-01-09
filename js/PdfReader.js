@@ -17,17 +17,4 @@ export async function loadPDF(file) {
   return fullText;
 }
 
-// Main reader function your button will call
-export async function readPDFAndDecode(file) {
-  const rawText = await loadPDF(file);
-{
-    const rawOut = document.getElementById("devRawOutput");
-    if (rawOut) rawOut.textContent = rawText;
-  }
-
- }
-
-
-    return decodedText;
-   }
 
