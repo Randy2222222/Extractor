@@ -30,5 +30,4 @@ export async function readPDFAndDecode(file) {
 
     return decodedText;
    }
-  return decodedText;
-  }
+
