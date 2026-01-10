@@ -113,7 +113,7 @@ header h1 {
   background-color: white;
   color: green;
     margin: auto;
-    position: absolute;
+    position: sticky; /* was absolute*/
     left: 2%;
     bottom: 250%;
     height: 80px;
