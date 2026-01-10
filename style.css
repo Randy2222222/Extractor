@@ -52,12 +52,25 @@ header h1 {
   margin: 2px auto 2px auto;  
 }
 
-
-
-.audio-player {
-    width: 300px;
-    margin: 20px;
+.player {
+    width: 200px;
+    margin: auto;
+    padding: 20px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
+
+.controls {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0;
+}
+
+.playlist {
+    margin-top: 10px;
+}
+
  
 
 #results {
