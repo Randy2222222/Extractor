@@ -118,8 +118,7 @@ header h1 {
     margin: auto;
     position: float;
     top: 80px:
-    left: 20px;
-    height: 80px;
+    height: 200px;
     padding: 20px;
     background-image: radial-gradient(#090,
                                 #fff, #2a4f32);
