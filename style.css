@@ -70,6 +70,10 @@ header h1 {
 }
 
 .controls {
+  position: relative;
+    top: 100 px;
+    left: 10px;
+    height: 150 px;
     display: flex;
   flex-direction: rows;
   align-items: normal;
