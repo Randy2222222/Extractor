@@ -107,7 +107,7 @@ header h1 {
       padding: 20px;
     }
     .content {
-      margin-left: 220px; /* Space for the sidebar */
+      margin-left: 20px; /* Space for the sidebar */
       padding: 20px;
     }
 .player {
@@ -118,8 +118,7 @@ header h1 {
     position: float;
     top: 80px:
     left: 20px;
-    height: 80
-       px;
+    height: 80px;
     padding: 20px;
     background-image: radial-gradient(#090,
                                 #fff, #2a4f32);
@@ -174,6 +173,7 @@ header h1 {
         #volume {
           background-color: white;
           color: green;
+          padding: px;
         }
 
 .playlist {
