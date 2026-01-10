@@ -55,8 +55,14 @@ header h1 {
 .player {
     width: 200px;
     margin: auto;
+    position: relative;
+    left: 30 px;
+    height: 150 px;
     padding: 20px;
+    background-image: radial-gradient(#090,
+                                #fff, #2a4f32);
     background: white;
+    color: black;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
@@ -68,6 +74,7 @@ header h1 {
 }
 
 .playlist {
+    color: green;
     margin-top: 10px;
 }
 
