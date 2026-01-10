@@ -48,21 +48,31 @@
 
     
 
+    <div class="player">
+        <div class="details">
+            <div class="now-playing">Now Playing: <span id="track-name">Track Name</span></div>
+            <div class="track-artist" id="track-artist">Artist Name</div>
+        </div>
+        <div class="controls">
+            <button id="play">Play</button>
+            <button id="pause">Pause</button>
+            <button id="next">Next</button>
+            <button id="previous">Previous</button>
+            <input type="range" id="volume" min="0" max="1" step="0.1" value="1">
+        </div>
+        <div class="playlist" id="playlist"></div>
+        <audio id="audio"></audio>
+    </div>
+    <script src="tunes.js"></script>
+
+
 
   
 
   
       
 
-   <div class="audio-player">
-        <audio id="audio" controls>
-            <source src="joe.mp3" type="audio/mp3"></source>
-            Your browser does not support the audio element.
-        </audio>
-        <div class="controls">
-            <button id="play-pause-button">Play</button>
-            <input type="range" id="volume-control" min="0" max="1" step="0.01" value="1">
-        </div>
+ 
     
 
 
