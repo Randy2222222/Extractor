@@ -13,7 +13,7 @@ const songs = [
     { title: "What Baby Wants", artist: "Alice Cooper", src: "Baby.mp3" },
     { title: "Sitting on the Dock by the Bay", artist: "Otis Redding", src: "Dock.mp3" },
     { title: "Low Rider", artist: "War", src: "War.mp3" },
-    { title: "Mary had a little Lamb", artist: "Deep Purple" }
+    { title: "Mary had a little Lamb", artist: "Deep Purple", src: "Mary.mp3" }
 ];
 
 let currentSongIndex = 0;
