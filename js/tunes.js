@@ -12,7 +12,7 @@ const songs = [
     { title: "Lazy", artist: "Deep Purple", src: "lazy.mp3" },
     { title: "What Baby Wants", artist: "Alice Cooper", src: "baby.mp3" },
     { title: "Blaze of Glory", artist: "Jon Bon Jovi", src: "blaze.mp3" },
-    { title: "Low Rider", artist: "War", src: "low.mp3 }
+    { title: "Low Rider", artist: "War", src: "low.mp3" }
 ];
 
 let currentSongIndex = 0;
