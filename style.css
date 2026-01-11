@@ -165,15 +165,16 @@ header h1 {
       padding: 5px auto 5px auto;
     }
       
-      #repeat {
+      #previous {
         background-color: white;
         background-image: radial-gradient(#090,
                                 #fff, #2a4f32);
+        top: 5px;
         color: black;
         border-radius: 2px;
         border: 1px solid green;
         text-align: center;
-        paddind: 5px auto 5px auot;
+        paddind: 25px auto 25px auot;
       }
         #volume {
           background-color: white;
