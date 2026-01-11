@@ -121,6 +121,7 @@ header h1 {
     back-ground: White;
     top: 20px; /* was 20 */
     border-radius: 5px;
+    padding-bottom: 10px; /* add padding*/
     background-image: radial-gradient(#090,
                                 #fff, #2a4f32);
     color: Green;/* Stacks items vertically */
@@ -165,17 +166,13 @@ header h1 {
       
     }
       
-   /*   #previous {
+        #previous {
         background-color: white;
-        background-image: radial-gradient(#090,
-                                #fff, #2a4f32);
-        top: 5px;
         color: black;
-        border-radius: 2px;
-        border: 1px solid green;
         text-align: center;
-        paddind: 25px auto 25px auot;
-      } */
+        border-radius: 2px;
+        padding-bottom: 10px;
+      } 
         #volume {
           background-color: white;
           color: green;
