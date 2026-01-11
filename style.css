@@ -11,6 +11,7 @@ html, body {
 
 /* Header (Green banner) */
 header {
+  position: sticky; /* add sticky */
   background-color: Green;
   color: Black;
   text-align: center;
@@ -29,6 +30,7 @@ header h1 {
 
 /* PDF Upload box (right below header) */
 #pdf-upload {
+  position: sticky; /* add sticky */
   background-color: white;
   color: Black;
   background-image: radial-gradient(#090,
@@ -106,7 +108,7 @@ header h1 {
   background-color: white;
   color: black;
     margin: auto;
-    position: absolute;
+    position: sticky; /* change from absolute to sticky */
     left: 2%;
     bottom:  70%;
     height: 60px;
@@ -118,6 +120,7 @@ header h1 {
 
 
 .controls {
+    position: sticky; /* add sticky */
     back-ground: White;
     top: 20px; /* was 20 */
     border-radius: 5px;
