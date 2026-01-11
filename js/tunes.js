@@ -9,10 +9,11 @@ const trackArtist = document.getElementById('track-artist');
 const playlistElement = document.getElementById('playlist');
 
 const songs = [
-    { title: "Lazy", artist: "Deep Purple", src: "lazy.mp3" },
-    { title: "What Baby Wants", artist: "Alice Cooper", src: "baby.mp3" },
-    { title: "Blaze of Glory", artist: "Jon Bon Jovi", src: "blaze.mp3" },
-    { title: "Low Rider", artist: "War", src: "low.mp3" }
+    { title: "Lazy", artist: "Deep Purple", src: "Lazy.mp3" },
+    { title: "What Baby Wants", artist: "Alice Cooper", src: "Baby.mp3" },
+    { title: "Sitting on the Dock by the Bay", artist: "Otis Redding", src: "Dock.mp3" },
+    { title: "Low Rider", artist: "War", src: "War.mp3" },
+    { title: "Mary had a little Lamb", artist: "Deep Purple" }
 ];
 
 let currentSongIndex = 0;
