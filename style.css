@@ -126,7 +126,7 @@ header h1 {
 
 .controls {
     back-ground: White;
-  top: 20px;
+  top: 10px;
     background-image: radial-gradient(#090,
                                 #fff, #2a4f32);
     color: Green;/* Stacks items vertically */
