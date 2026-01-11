@@ -16,37 +16,22 @@
 
 <body>
 
-  <!-- Blue Header -->
+     <!-- Green Header -->
   <header>
     <h1>⚡️ FILE EXTRACTOR! ⚡️</h1>
   </header>
 
-  <!-- Upload PDf Box (Matches your CSS exactly) -->
+  <!-- Upload PDf Box  -->
     <div id="pdf-upload">
     <h2>⚡️LOAD FILE!⚡️</h2>
-
-  
     <input type="file" id="pdfFile">
-            
-    
    <p id="pdfStatus">When Loaded - Click</p>
-  
     <!-- ⚪️ Create Button -->
     <button id="runCreate">READ</button>
-  </div>
-
-  <!-- Program Output Area -->
-<!--  <div id="program-output">
-    <pre id="output"></pre>
-  </div>-->
-
-<!--  <div style="border:1px solid #666; padding:10px; margin:10px;">
-    <strong>RAW TEXT (DEV MODE)</strong>-->
-  <!--  <div id="devRawOutput">
-  </div>-->
+  
 
 
-    
+    <!-- 🎵 MP3 PLAYER 🎵 -->
        <div class="container">
     <div class="player">
         <div class="details">
@@ -63,41 +48,8 @@
         <div class="playlist" id="playlist"></div>
         <audio id="audio"></audio>
     </div></div>
+      <!-- Your JS Files -->
     <script src="js/tunes.js"></script>
-       
-
-
-
-  
-
-  
-      
-
- 
-    
-
-
-  
-  
-
-
-
-
-
-  
-
-  
-      
-
-  
-    
-
-      <!--  <h1>Main Content Area</h1>
-        <p>This is where the main content goes.</p>-->
-   
-
-
-  <!-- Your JS Files -->
     <script type="module">
   import { readPDFAndDecode } from "./js/pdfReader.js";
   // When user selects a PDF file, show page count immediately
@@ -114,11 +66,7 @@ document.getElementById("pdfFile").addEventListener("change", async () => {
   const decoded = await readPDFAndDecode(file);
 });
 </script>
-  
-  
-
-  
-  <script src="js/pic.js"></script>
+   <script src="js/pic.js"></script>
    <script src="js/tunes.js"></script>
   
 
@@ -127,9 +75,7 @@ document.getElementById("pdfFile").addEventListener("change", async () => {
   <div id="program-output">
     <pre id="output"></pre>
   </div>
-
-<!--  <div style="border:1px solid #666; padding:10px; margin:10px;">
-    <strong>RAW TEXT (DEV MODE)</strong>-->
-    <div id="devRawOutput">
-  </div></footer>
+ <!--   RAW TEXT (DEV MODE)  -->
+    <div id="devRawOutput">  </div>
+  </footer>
 </html>
