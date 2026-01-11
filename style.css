@@ -116,7 +116,7 @@ header h1 {
     position: absolute;
     left: 2%;
     bottom:  70%;
-    height: 80px;
+    height: 60px;
     padding: 20px;
     background-image: radial-gradient(#090,
                                 #fff, #2a4f32);
@@ -140,7 +140,7 @@ header h1 {
   border-radius: 2px;
   border: 1px solid green;
   text-align: center;
-  padding: 5px auto 5x auto
+  padding: 5px auto 5px auto;
 }
   
   #pause{
