@@ -148,7 +148,7 @@ header h1 {
     background-image: radial-gradient(#090,
                                 #fff, #2a4f32);
     color: black;
-    border-raduis: 2x;
+    border-raduis: 2px;
     border: 1px solid green;
     text-align: center;
     padding: 5px auto 5px auto;
@@ -159,6 +159,8 @@ header h1 {
       background-image: radial-gradient(#090,
                                 #fff, #2a4f32);
       color: black;
+      border-radius: 2px;
+      border: 1px solid green;
       text-align: center;
       padding: 5px auto 5px auto;
     }
@@ -168,11 +170,15 @@ header h1 {
         background-image: radial-gradient(#090,
                                 #fff, #2a4f32);
         color: black;
+        border-radius: 2px;
+        border: 1px solid green;
+        text-align: center;
+        paddind: 5px auto 5px auot;
       }
         #volume {
           background-color: white;
           color: green;
-          padding: px;
+          padding: 10px;
         }
 
 .playlist {
