@@ -180,15 +180,16 @@ header h1 {
 }
 /*Added Container for Signature */
 .container {
-  position: relative; /* Set the parent to relative */
+  baxkground-color: black;
+  color: green;/* Set the parent to relative */
   height: 200px;     /* Set a height for the container */
 }
 
 .text {
-  position: absolute; /* Position the text absolutely */
-  bottom: 0;         /* Align to the bottom */
-  left: 50%;         /* Center horizontally */
-  transform: translateX(-50%); /* Adjust for centering */
+ /* Position the text absolutely */
+       /* Align to the bottom */
+  align-text: center;       /* Center horizontally */
+ /* Adjust for centering */
 }
     h3 {
       background-color: black;
