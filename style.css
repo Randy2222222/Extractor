@@ -182,12 +182,12 @@ header h1 {
     /* PDF output area */
     h3 {
       background-color: black;
-      height: 80px;
+      height: 80px; /* add height */
       line-height: 10%; 
       font-size: 2em;
       color: green;
       text-align: center;
-      margin-bottom: 80px; /* margin bottom 25px moved line up */
+      margin-bottom: 30px; /* margin bottom 25px moved line up */
       padding: 0px auto 0px auto;
      }
 
