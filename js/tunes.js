@@ -14,7 +14,7 @@ const songs = [
     { title: "Sitting on the Dock by the Bay", artist: "Otis Redding", src: "Dock.mp3" },
     { title: "Low Rider", artist: "War", src: "War.mp3" },
     { title: "Mary had a little Lamb", artist: "Deep Purple", src: "Mary.mp3" },
-    { title: "I Know Where I Belong", artist: "Joe Bonamassa", src: "Joe.mp3" }
+    { title: "I Know Where I Belong", artist: "Joe Bonamassa", src: "joe.mp3" }
 ];
 
 let currentSongIndex = 0;
