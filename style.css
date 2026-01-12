@@ -14,9 +14,9 @@ header {
   background-color: Green;
   color: Black;
   text-align: center;
-  padding: 0.3em 0;      /* thin height */
+  padding: 0.3em 0;     
   margin: 0;
-  line-height: 1;        /* tighten blueb bar */
+  line-height: 1;        
 }
 
 header h1 {
@@ -24,7 +24,7 @@ header h1 {
   padding: 0;
   text-align: center;
   font-size: 3em;
-  line-height: 1.2em;    /* vertically centered text */
+  line-height: 1.2em;    
 }
 
 /* PDF Upload box (right below header) */
@@ -42,7 +42,7 @@ header h1 {
   max-width: 350px;
 }
 
-
+/* READ BUTTON */
 #runCreate {
   background-color: #DCDCDC;
   border-radius: 2px;
@@ -90,7 +90,7 @@ header h1 {
   font-size: 0.9em;
   color: Black;
 }
-
+     /* container for holding MP3 player */
     .container{
       position: relative;
       width: 200px;
@@ -101,7 +101,8 @@ header h1 {
       padding: 20px;
     
     }
-    
+
+/* Audio MP3 Player */
 .player {
     width: 200px;
   background-color: white;
@@ -120,12 +121,12 @@ header h1 {
 
 .controls {
     back-ground: White;
-    top: 20px; /* was 20 */
+    top: 20px; 
     border-radius: 5px;
     padding-bottom: 1px; /* add padding*/
     background-image: radial-gradient(#090,
                                 #fff, #2a4f32);
-    color: Green;/* Stacks items vertically */
+    color: Green;
     align-text: center;   /* Centers items */
 }
 #play {
@@ -178,13 +179,13 @@ header h1 {
     color: green;
     margin-top: 10px;
 }
-
+    /* PDF output area */
     h3 {
       background-color: black;
       font-size: 2em;
       color: green;
       text-align: center;
-      margin-bottom: 25px; /* margin bottom 2px */
+      margin-bottom: 25px; /* margin bottom 25px moved line up */
       padding: 0px auto 0px auto;
      }
 
@@ -197,9 +198,9 @@ footer {
     border-top: 3px solid green; 
 }
 
-/* Output area */
+/* Data Output */
 #program-output {
-  padding: 0px 20px 0px 20px; /*was 20px*/ 
+  padding: 0px 20px 0px 20px; 
   text-align: center;
 }
 
