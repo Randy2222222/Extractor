@@ -181,7 +181,6 @@ header h1 {
 }
     /* PDF output area */
     h3 {
-      position: fixed;
       background-color: black;
       line-height: 10%; /* was set at 10% with no height and margin at 25% */
       font-size: 2em;
@@ -195,7 +194,7 @@ footer {
     background-color:  black;
     color: green;
     text-align: center; /* Centered text */
-    position: fixed; /* Positioning context relative*/
+    position: relative;/* Positioning context relative*/
     width: 100%; /* Full width */
     border-top: 3px solid green; 
 }
