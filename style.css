@@ -192,17 +192,18 @@ footer {
     background-color:  black;
     color: green;
     text-align: center; /* Centered text */
-  /*  padding: 0px;/* Space inside the footer was 50px */
     position: relative; /* Positioning context */
- /*   bottom: 0; /* Align to the bottom */
     width: 100%; /* Full width */
-    border-top: 2px solid green; 
+    border-top: 3px solid green; 
 }
 
 /* Output area */
 #program-output {
+  position: relative;
   padding: 0px 20px 0px 20px; /*was 20px*/ 
   margin-top: 2px;  
+  width: 95%;
+  text-align: center;
 }
 
 
