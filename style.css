@@ -195,8 +195,7 @@ footer {
     color: green;
     text-align: center; /* Centered text */
     position: relative;/* Positioning context relative*/
-    width: 100%vw;   /* Full width */
-    height: 25%vh;  /* added this line and put vw on above line */
+    width: 100%; 
     border-top: 3px solid green; 
 }
 
