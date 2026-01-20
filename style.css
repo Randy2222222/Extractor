@@ -97,7 +97,7 @@ header h1 {
       height: 80px;
       background-color: Black;
       color: Green;
-      border: 1px solid Green;
+   /* border: 1px solid Green; */
       padding: 20px;
     
     }
