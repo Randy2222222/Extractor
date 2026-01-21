@@ -92,7 +92,7 @@ header h1 {
 }
      /* container for holding MP3 player */
     .container{
-      position: relative;
+      position: fixed; /* Relative */
       width: 200px;
       height: 80px;
       background-color: Black;
@@ -194,7 +194,7 @@ footer {
     background-color:  black;
     color: green;
     text-align: center; /* Centered text */
-    position: fixed;/* Positioning context relative*/
+    position: relative;/* Positioning context relative*/
     width: 100%; 
     border-top: 3px solid green; 
 }
