@@ -11,7 +11,7 @@ const playlistElement = document.getElementById('playlist');
 const songs = [
     { title: "Lazy", artist: "Deep Purple", src: "Lazy.mp3" },
     { title: "What Baby Wants", artist: "Alice Cooper", src: "Baby.mp3" },
-    { title: "Sitting' On The Dock Of The Bay", artist: "Otis Redding", src: "Sitting'On The Dock Of The Bay Otis Redding.mp3" },
+    { title: "Sittin' On The Dock Of The Bay", artist: "Otis Redding", src: "Sittin' On The Dock Of The Bay Otis Redding.mp3" },
     { title: "Low Rider", artist: "War", src: "War.mp3" },
     { title: "Mary Had A Little Lamb", artist: "Stevie Ray Vaughan", src: "Mary Had A Little Lamb.mp3" },
     { title: "Pimk Floyd Animals", artist: "Pink Floyd", src: "Pink Floyd 1977 Animals.mp3" },
