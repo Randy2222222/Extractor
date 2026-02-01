@@ -193,9 +193,10 @@ header h1 {
 footer {
     background-color:  black;
     color: green;
+    font-size: .5em; /* add font size */
     text-align: center; /* Centered text */
     position: relative;/* Positioning context relative*/
-    width: 100%; 
+    width: 90%; /* change from 100% */ 
     border-top: 3px solid green; 
 }
 
