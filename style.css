@@ -195,8 +195,6 @@ footer {
     background-color:  black;
     color: green;
     font-size: 1.2em; /* add font size */
-    text-decoration-line: underline;
-    text-decolration-color: green;
     text-align: center; /* Centered text */
     position: relative;/* Positioning context relative*/
     width: 96%; /* was 100% */
